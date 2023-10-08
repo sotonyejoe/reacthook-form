@@ -1,0 +1,93 @@
+
+ 
+.App {
+  background-image: linear-gradient(60deg, #f1f1f1, #f9f9f8);
+  height: 200vh;
+  font-size: 18px;
+  display: block;
+  justify-content: center;
+}
+.materialUi{
+  padding: 4rem;
+  /* height: 100vh; */
+  padding: 30px;
+  color: #141414;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+form{
+  margin-top: 5vh;
+}
+label{
+  display: flex;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+/* input{
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-szie: 14px;
+  line-height: 1.5;
+  border: none;
+  background-color: none;
+  border-bottom: #0b3fa7;
+  margin-bottom: 20px;
+} */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="data"] {
+  display: block;
+  width: 400px;
+  padding: 6px 12px;
+  font-szie: 14px;
+  line-height: 1.5;
+  border: 1px solid #d4d3d3;
+  background-color: transparent;
+  color: white;
+  background-image: #eeeded;
+  
+}
+.form-control{
+  margin-bottom: 20px;
+}
+.error{
+  color: yellow;
+  font-size: 16px;
+  text-align: left;
+}
+button{
+  padding: 15px 30px;
+  color: white;
+  background: #0438a1;
+  border: none;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+button:hover{
+  background-color: crimson;
+  /* -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate   */
+}
+/* @-webkit-keyframes button{
+  from{
+    text-shadow: 0 0 10px #eeeded, 0 0 20px #000000, 0 0 30px #0000, 0 0 40px #000000,
+                  0 0 50px #9554b3, 0 0 60px #955495, 0 0 70px #9554b3;
+  }
+} */
+/* .App-link {
+  color: #61dafb;
+} */
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
